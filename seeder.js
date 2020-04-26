@@ -7,7 +7,7 @@ dotenv.config({ path: './config/config.env' });
 
 // Load Models
 const Bootcamp = require('./models/Bootcamp');
-const Course = require('./models/course');
+const Course = require('./models/Course');
 const User = require('./models/User');
 
 // Connect to DB
@@ -36,7 +36,7 @@ const importData = async () => {
   try {
     await Bootcamp.create(bootcamps);
     await Course.create(courses);
-    await Course.create(users);
+    await User.create(users);
     console.log('Data Imported...');
     process.exit();
   } catch (err) {
