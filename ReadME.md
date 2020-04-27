@@ -34,6 +34,8 @@ node seeder -d
 node seeder -i
 ```
 
-## Documentation
+## Demo
+
+The API is live at [DevCamper](https://gifted-swirles-60ba13.netlify.app/)
 
 Extensive documentation with examples [here](https://documenter.getpostman.com/view/7344304/SzfCSkEU?version=latest)
